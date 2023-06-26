@@ -6,6 +6,9 @@ This tool is designed to parse e-mail data on physical memory. It identifies tra
 
 To execute the tool, run the following command:
 
+```bash
+mail_parser.py -i "{Memory dump file path}" -o "{Path to save execution result DB}"
+```
 
 Replace `{Memory dump file path}` with the path to the physical memory dump file that you want to analyze. Specify `{Path to save execution result DB}` as the desired location to store the resulting execution database.
 
